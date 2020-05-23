@@ -5,7 +5,7 @@ struct studentRecord
 {
  int roll_no;
  char name[20], address[40];
- int subject1_marks, subject2_marks, subject3_marks;
+ float subject1_marks, subject2_marks, subject3_marks;
 };
 //////////////FUNC. DECLARE///////////////////////
 void enter(struct studentRecord student[10]);
